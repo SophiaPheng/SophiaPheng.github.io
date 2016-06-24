@@ -1,6 +1,6 @@
 body {
   background-color: #555555;
-  background-image: url("http://livehdwallpaper.com/wp-content/uploads/2016/02/Beautiful-Mountain-images-HD-Photos.jpg");
+  background-image: url(http://livehdwallpaper.com/wp-content/uploads/2016/02/Beautiful-Mountain-images-HD-Photos.jpg);
   background-attachment: fixed;
 }
 img {
@@ -16,7 +16,8 @@ img {
 }
 .jumbotron h1 {
   color: white;
-  text-align: center;
+  font-family: sans-serif;-serif;
+  text-align: center;;
   text-shadow: 2px 2px 8px #000000;
 
 }
@@ -32,4 +33,23 @@ img {
   margin: 125px;
 
 
+}
+.paragraph_box h1 {
+  color: white;
+  border: 10px solid #000000;
+  margin: 20px auto 20px auto;
+  background-image: url(http://orig09.deviantart.net/6bc7/f/2009/311/6/d/6df23e313830bf0fea9f8dce8fb87c61.jpg);
+  text-align: center;
+
+}
+.paragraph_box p {
+  color: #000000;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+  border: 10px solid #000000;
+  margin: auto;
+  text-align: center;
+  background-color: white;
 }
