@@ -1,6 +1,6 @@
 body {
   background-color: #555555;
-  background-image: url(http://livehdwallpaper.com/wp-content/uploads/2016/02/Beautiful-Mountain-images-HD-Photos.jpg);
+  background-image: url("http://livehdwallpaper.com/wp-content/uploads/2016/02/Beautiful-Mountain-images-HD-Photos.jpg");
   background-attachment: fixed;
 }
 img {
@@ -16,8 +16,7 @@ img {
 }
 .jumbotron h1 {
   color: white;
-  font-family: sans-serif;-serif;
-  text-align: center;;
+  text-align: center;
   text-shadow: 2px 2px 8px #000000;
 
 }
