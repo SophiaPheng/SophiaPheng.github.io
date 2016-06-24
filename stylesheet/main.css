@@ -33,7 +33,6 @@ img {
 .nav {
   font-size: 1.25rem;
   font-family: sans-serif, serif;
-  text-shadow: 0 2px #FFFFFF;
   text-shadow: 2px 2px 8px #000000;
 
 }
@@ -50,6 +49,7 @@ img {
   border: 10px solid #000000;
   margin: 20px auto 20px auto;
   background-image: url(http://orig09.deviantart.net/6bc7/f/2009/311/6/d/6df23e313830bf0fea9f8dce8fb87c61.jpg);
+  font-family: 'Bungee Outline', cursive;
   text-align: center;
   text-shadow: 0 2px #000000;
 
@@ -71,4 +71,5 @@ img {
 	color: #FFFFFF;
   text-align: center;
 	font-size: 20px;
+  text-shadow: 2px 2px 8px #000000
 }
