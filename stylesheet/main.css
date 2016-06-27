@@ -7,7 +7,7 @@ body {
 
 img {
   width: inherit;
-  height: inherit;
+
 }
 
 .header {
@@ -20,11 +20,12 @@ img {
 .header img {
   margin-top: 15px;
   border: 10px solid #000000;
+  border-radius: 100%;
 }
 
 .header h1 {
   color: white;
-  font-family: sans-serif, sans-serif;;
+  font-family: 'Diplomata SC', cursive;
   text-align: center;
   text-shadow: 2px 2px 8px #000000;
 
@@ -33,17 +34,31 @@ img {
 .nav {
   font-size: 1.25rem;
   font-family: sans-serif, serif;
-  text-shadow: 2px 2px 8px #000000;
-  margin-left: 250px;
-
+  text-shadow: 2px 2px 8px #999999;
+  text-align: center;
+  margin-right: 100px;
+  float: right;
 
 }
+.nav ul li {
+  padding: 50px;
+  display: inline;
+}
+.nav a {
+  color: #3E335E;
+}
+
+.nav a:hover {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
 
 .paragraph_box {
-  padding: 20px;
+  padding: 50px;
   border: 20px solid #000000;
   margin: 125px;
-
 }
 
 .paragraph_box h1 {
@@ -62,11 +77,12 @@ img {
   color: #000000;
   font-family: 'Anton', sans-serif;
   text-align: center;
-  display: inline-block;
+  display:inline-block;
   padding: 25px;
   border: 10px solid #000000;
   margin:20px;
   background-color: white;
+
 }
 
 .footer {
