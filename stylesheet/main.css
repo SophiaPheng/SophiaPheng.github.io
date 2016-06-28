@@ -7,20 +7,21 @@ body {
 
 img {
   width: inherit;
+  height: inherit;
 
 }
 
 .header {
   background-image: url(http://orig09.deviantart.net/6bc7/f/2009/311/6/d/6df23e313830bf0fea9f8dce8fb87c61.jpg);
   border: 10px solid #000000;
-  margin: 20px 100px 20px 100px;
+  margin: 20px 100px;
   text-align: center;
-
 }
 .header img {
-  margin-top: 15px;
+  margin: 10px auto;
   border: 10px solid #000000;
   border-radius: 100%;
+  position: relative;
 }
 
 .header h1 {
@@ -32,20 +33,20 @@ img {
 }
 
 .nav {
+  width: 100%;
   font-size: 1.25rem;
   font-family: sans-serif, serif;
-  text-shadow: 2px 2px 8px #999999;
+  text-shadow: 2px 2px 8px #000000;
   text-align: center;
-  margin-right: 100px;
-  float: right;
 
 }
 .nav ul li {
   padding: 50px;
   display: inline;
 }
+
 .nav a {
-  color: #3E335E;
+color: #FFFFFF;
 }
 
 .nav a:hover {
@@ -59,12 +60,14 @@ img {
   padding: 50px;
   border: 20px solid #000000;
   margin: 125px;
+  clear: both;
+  text-align: center;
 }
 
 .paragraph_box h1 {
   color: white;
   border: 10px solid #000000;
-  margin: 20px auto 20px auto;
+  margin: 20px auto;
   background-image: url(http://orig09.deviantart.net/6bc7/f/2009/311/6/d/6df23e313830bf0fea9f8dce8fb87c61.jpg);
   font-family: 'Bungee outline', cursive;
   text-align: center;
@@ -74,6 +77,7 @@ img {
 
 .paragraph_box p {
   width:250px;
+  height: 350px;
   color: #000000;
   font-family: 'Anton', sans-serif;
   text-align: center;
@@ -82,7 +86,13 @@ img {
   border: 10px solid #000000;
   margin:20px;
   background-color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
+.paragraph_box img {
+  width: 250px;
+  height: auto;
 }
 
 .footer {
