@@ -38,6 +38,7 @@ img {
   font-family: sans-serif, serif;
   text-shadow: 2px 2px 8px #000000;
   text-align: center;
+  text-decoration: none;
 
 }
 .nav ul li {
@@ -62,9 +63,13 @@ color: #FFFFFF;
   margin: 125px;
   clear: both;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .paragraph_box h1 {
+  width: 100%;
   color: white;
   border: 10px solid #000000;
   margin: 20px auto;
@@ -84,7 +89,7 @@ color: #FFFFFF;
   display:inline-block;
   padding: 25px;
   border: 10px solid #000000;
-  margin:20px;
+  margin:10px;
   background-color: white;
   overflow-x: hidden;
   overflow-y: auto;
