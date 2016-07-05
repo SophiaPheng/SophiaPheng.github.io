@@ -16,6 +16,7 @@ img {
   border: 10px solid #000000;
   margin: 20px 100px;
   text-align: center;
+  overflow:  hidden;
 }
 .header img {
   margin: 10px auto;
@@ -29,12 +30,12 @@ img {
   font-family: 'Diplomata SC', cursive;
   text-align: center;
   text-shadow: 2px 2px 8px #000000;
-
+  font-size: 250%;
 }
 
 .nav {
   width: 100%;
-  font-size: 1.25rem;
+  font-size: 125%;
   font-family: sans-serif, serif;
   text-shadow: 2px 2px 8px #000000;
   text-align: center;
@@ -42,8 +43,9 @@ img {
 
 }
 .nav ul li {
-  padding: 50px;
+  padding: .25em;
   display: inline;
+
 }
 
 .nav a {
@@ -54,6 +56,7 @@ color: #FFFFFF;
   position: relative;
   top: 2px;
   left: 2px;
+  background-color: #92AAB3;
 }
 
 
@@ -66,6 +69,7 @@ color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 
 .paragraph_box h1 {
@@ -96,7 +100,7 @@ color: #FFFFFF;
 }
 
 .paragraph_box img {
-  width: 250px;
+  width: 100%;
   height: auto;
 }
 
@@ -105,4 +109,48 @@ color: #FFFFFF;
   text-align: center;
 	font-size: 20px;
   text-shadow: 2px 2px 8px #000000
+}
+
+/*Tablet View*/
+@media screen and (max-width:768px) and (min-width: 480px) {
+  .header {
+    margin: 5%;
+  }
+  .header h1 {
+    font-size: 1.75em;
+  }
+  .paragraph_box {
+    margin: 0 5%;
+  }
+  .paragrapgh_box p {
+    display: block;
+  }
+}
+
+
+/*mobile device*/
+@media screen and (max-width: 480px) {
+  .header {
+    margin: 0 auto;
+}
+  .header h1 {
+    font-size: 1em;
+  }
+  .paragraph_box {
+     margin: 1% auto;
+     padding: 0;
+  }
+
+  .paragraph_box h1{
+    margin: 1% 1%;
+  }
+  .paragraph_box p {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 1 auto;
+    padding: 0 auto;
+
+  }
+
 }
